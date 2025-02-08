@@ -1,13 +1,13 @@
-(defpackage cl-competitive/tests/main
+(defpackage cl-prolog/tests/main
   (:use :cl
         :fiveam
-        :cl-competitive/main))
-(in-package :cl-competitive/tests/main)
+        :cl-prolog/main))
+(in-package :cl-prolog/tests/main)
 
 (def-suite main)
 (in-suite main)
 
 (test add
-      (is (3 (add 1 2))))
+      (is (add 1 2) 3))
 
 (run! 'main)
