@@ -3,7 +3,7 @@ name: Run cl-prolog test
 on:
   push:
     paths:
-      - cl-prolog/
+      - cl-prolog/**
 
 jobs:
   test:
