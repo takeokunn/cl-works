@@ -1,3 +1,14 @@
 #+STARTUP: content
 #+STARTUP: fold
 * cl-prolog
+** Run locally
+
+Run =M-x slime= and insert below.
+
+#+begin_src lisp
+  (asdf:defsystem :cl-prolog)
+#+end_src
+** Run test
+#+begin_src bash
+  nix run .#test
+#+end_src
