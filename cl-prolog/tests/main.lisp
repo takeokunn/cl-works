@@ -8,6 +8,7 @@
 (in-suite main)
 
 (test add
-      (is (add 1 2) 3))
+      (is (add 1 2) 3)
+      (is (add 3 4) 7))
 
 (run! 'main)
