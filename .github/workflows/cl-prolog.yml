@@ -17,4 +17,4 @@ jobs:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Run Nix Test
         run: nix run .#test
-        working-directory: ./scripts
+        working-directory: ./cl-prolog
