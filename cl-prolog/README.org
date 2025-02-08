@@ -3,7 +3,7 @@
 * cl-prolog
 ** Run locally
 
-Run =M-x slime= and insert below.
+Run =M-x slime= and eval below.
 
 #+begin_src lisp
   (asdf:defsystem :cl-prolog)
